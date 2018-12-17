@@ -1,0 +1,364 @@
+
+/******global****/
+
+body{
+    background-color:whitesmoke;
+    border:wheat 2px solid;
+    margin:0px;
+    min-height: 75px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.main-container{
+    margin:auto;
+    width:100%;
+    padding:0;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color:aliceblue;
+    font-size:0.75em;
+    border-radius:15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*****header section*****/
+header{
+    padding:1px;
+    margin-top:0px;
+    background-color:white;
+    border-bottom:#51A39D 3px solid;
+    min-height:60px;
+    position: static;
+}
+header .logo{
+    padding:5px;
+    margin:0px;
+    text-align: center;
+}
+
+.highlite{
+    color: #51A39D;
+
+}
+header nav{
+    margin-top:0px;
+    text-align: center;
+    margin-bottom:7px;
+}
+header nav #list{
+    margin-bottom: 10px;
+    padding:0;
+    margin:0;
+
+}
+#list li{
+    list-style: none;
+    display:inline-block;
+    padding:0px;
+    margin-right:5px;
+    text-align: center;
+    border-radius:20px;
+}
+
+#list li a{
+    text-decoration: none;
+    color: #06425C;
+    padding:5px;
+
+}
+
+#list li a:hover{
+    background-color: burlywood;
+    
+}
+
+/*****the ask form****/
+
+.ask{
+    
+    margin-top:0px;
+    padding :15px;
+    margin-bottom: 2px;
+    min-height:75px;
+}
+
+.ask h3{
+    float:left;
+    text-align: center;
+    margin-top:12px;
+    padding:0px;
+    margin-bottom:5px;
+    
+}
+
+.ask form{
+    border:2px none;
+    text-align:;
+    margin-top:0px;
+    padding: 0px;
+    margin-bottom:3px;
+    min-height:48px;
+    margin-left:0;
+    margin-right:0px;
+}
+
+.ask form .input{
+    float:left;
+    height: 25px;
+    background-color:white;
+    color:black;
+    width: 300px;
+    border:none;
+    margin-left:200px;
+    margin-bottom:15px;
+    
+}
+
+form .areafiled{
+    margin-top:0px;
+    margin-bottom:25px;
+}
+
+.ask form button{
+    float:right;
+    color:#F2F2F2;
+    height:25px;
+    margin-left:0px;
+    background:gray;
+    margin-bottom:0px;
+    margin-right:400px;
+
+}
+/****the question div****/
+
+.questions{
+
+    margin-top:0px;
+    width:90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:1px;
+
+}
+.questions h2{
+    border-left:4px rgb(5, 7, 7) solid;
+    font-weight: bold;
+    color:black;
+    margin-bottom:0px;
+    margin-top:0px;
+    padding:15px;
+    margin-left:15px;
+}
+
+.maswali{
+    margin-left:25px;
+    border-top:2px cadetblue solid;
+    margin-bottom:20px;
+}
+
+.message-container{
+margin-top:5px;
+border:4px black bold;
+padding:0;
+
+}
+.message-container h5{
+    font-size:1.4em;
+    font-weight:bold;
+    margin:0px;
+    padding: 0;
+}
+.span-tag{
+    margin-left:20px;
+    margin-right:20px;
+    color:blue;
+    font-size:0.5em;
+    font-weight:bold;
+    padding:5px;
+}
+.message-container p{
+    font-size: 1.2em;
+    background-color: ;
+    margin:0;
+}
+
+.answers{
+    background-color:;
+    margin-left:10px;
+    padding: 4px;
+    margin-bottom:15px;
+    margin-top:0px;
+}
+.delete{
+    float:right;
+    margin-top:100x;
+    margin-left:15px;
+}
+.all-questions{
+    float:right;
+
+}
+.swali p{
+    font-size:2.0em;
+    font-style: bold;
+    margin:0;
+}
+
+.swali #one{
+    border-bottom:1px blue solid;
+    margin-top:0px;
+    width:80%;
+
+}
+
+.swali form{
+    
+    margin-top:0;
+    padding:0;
+}
+.sawli form h6{
+    margin:0px;
+    padding:0;
+
+}
+.sawli form input[type=textarea]{
+    margin-bottom:20px;
+    padding:0;
+    -ms-grid-rows:4;
+    columns:100;
+}
+
+.sawli form button{
+    margin-bottom:15px;
+    margin-left:100px;
+    background:black;
+    color:white;
+}
+
+#body{
+    margin-left:2%;
+    margin-right: 2%;
+    padding:2px;
+}
+
+#body h3{
+    border-left:2px black solid;
+    margin-left:15px;
+    padding:7px;
+}
+
+.prefer{
+    float:right;
+    margin-left:15px;
+    background-color: coral;
+    color:black;
+    border-radius:15px;
+    border:none;
+}
+
+/****foooter***/
+footer{
+    border:2px wheat solid;
+    margin-top:20px;
+    background-color: white;
+    color:black;
+    margin-bottom:1px;
+}
+footer p{
+    text-align:center;
+}
+#mguu{
+    margin-bottom:1px;
+    text-align:center;
+    margin:auto;
+
+}
+
+
+/**
+register form
+***/
+form {
+    margin-top:2px;
+    margin-left:4%;
+    margin-right:4%;
+    padding:40px;
+    
+    font-family: 'Dosis', sans-serif;
+
+
+}
+h5{
+    text-align: center;
+    font-size:1.3em;
+    margin-top:20px;
+    font-family:'Open Sans', sans-serif ;
+    
+
+}
+
+form .style{
+    margin-top:px;
+    margin-bottom:3px;
+    margin-left:3px;
+    padding:4px;
+}
+
+form .kuku{
+    height:25px;
+    width:90%;
+    padding:4px;
+}
+
+form .mbele{
+    font-weight: bold;
+    color:black;
+    margin-bottom:10px;
+}
+form .button{
+    margin-left:10px;
+    margin-top:7px;
+}
+form .green{
+    background-color:skyblue;
+    height:25px;
+    padding:5px;
+}
+
+#main{
+    border:1px gainsboro solid;
+    margin-left:500px;
+    margin-right: 500px;
+    padding:0px;
+    border-radius:15px;
+    background-color: bisque;
+    margin-top:3%;
+    
+}
+#main form p{
+    font-size:0.75em;
+    text-align:justify;
+    
+}
+.main{
+    border:1px gainsboro solid;
+    margin-left:500px;
+    margin-right: 500px;
+    padding:0px;
+    border-radius:15px;
+    background-color: bisque;
+    margin-top:15px;
+}
+
+.main .text{
+    margin-left:20px;
+    text-align:center;
+}
